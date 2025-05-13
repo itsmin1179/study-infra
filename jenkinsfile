@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "yourdockerid/REPLACE_THIS:latest"
+        DOCKER_IMAGE = "sangminp/python-k8s-app:latest"
     }
 
     stages {

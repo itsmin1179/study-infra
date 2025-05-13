@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: python-app
-        image: yourdockerid/REPLACE_THIS:latest
+        image: sangminp/python-k8s-app:latest
         ports:
         - containerPort: 5000
 ---
